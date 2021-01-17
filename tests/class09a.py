@@ -24,7 +24,6 @@ print(f'{b} in \033[3;30muppers\033[m stay: \033[7;30m{b.upper()} \033[m\n'
       f'{b} \033[3;30mcapitalized after taken away the spaces\033[m stay: \033[7;30m{b.strip().capitalize()} \033[m\n'
       f'\033[3;30mSplitting off all words in {b}\033[m would be: \033[7;30m{b.split()} \033[m\n')
 
-# para fazer anotações se  usa # e para escrever textos longos '''
 print('''The Zen of Python, by Tim Peters
 Beautiful is better than ugly.
 Explicit is better than implicit.
