@@ -1,4 +1,4 @@
-t = float(input('Temperatura em °C: '))
-f = t * 1.8 + 32
+c = float(input('Type a temperature in °C: '))
+f = c * 1.8 + 32
 
-print(f'{t}°C corresponde à {f}°F')
+print(f'{c}°C corresponds to {f}°F')

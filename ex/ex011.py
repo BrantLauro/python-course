@@ -1,6 +1,6 @@
-la = float(input('Qual a largura da parede? '))
-h = float(input('Qual a altura da parede? '))
-a = la * h
+w = float(input('What is the width of the wall? (in meters): '))
+h = float(input('What is the height of the wall? (in meters): '))
+a = w * h
 
-print(f'Sua parede tem a dimensão de {la}x{h} e sua área é de {a}m² \n'
-      f'Você precisará de {a / 2} litros de tinta para pinta-la')
+print(f'The wall has dimensions of {w}x{h} and its area is {a}m² \n'
+      f'You needs {a / 2} liters of ink to paint it')

@@ -1,7 +1,7 @@
-p = float(input('Qual o preço do produto? R$'))
-d = p - p * (10/100)
-a = p + p * (8/100)
+price = float(input('What is the price of the product? $'))
+i = price - price * (10/100)
+p = price + price * (10/100)
 
-print(f'O preço do produto é {p} \n'
-      f'A vista, ficaria {d} \n'
-      f'Parcelado ficaria {a}')
+print(f'The product price is {price} \n'
+      f'In cash will be {i} \n'
+      f'Parceled out will be {p}')

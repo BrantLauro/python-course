@@ -1,5 +1,5 @@
-s = float(input('Qual o salário? R$'))
-a = float(input('Qual a porcentagem de aumento? '))
-ns = s + s * (a / 100)
+s = float(input('What is the salary? $'))
+i = float(input('what percentage of increase? '))
+ns = s + s * (i / 100)
 
-print(f'O salário {s:.2f} com a promoção de {a}% ficou {ns :.2f}')
+print(f'The salary {s:.2f} with the promotion of {i}% will be {ns :.2f}')

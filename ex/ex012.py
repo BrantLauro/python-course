@@ -1,5 +1,5 @@
-p = float(input('Qual o preço do produto? R$'))
-des = float(input('Qual é o desconto? '))
-d = p - p * (des/100)
+p = float(input('What is de price of the product? $'))
+dis = float(input('What is the discount? '))
+d = p - p * (dis/100)
 
-print(f'O novo preço com o desconto de {des}% é {d:.2f}')
+print(f'The new price with the discount of {dis}% is {d:.2f}')
