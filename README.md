@@ -28,7 +28,7 @@ print(f'Hi, {blue}{name}{none} you are {blue}{age}{none} and weighs {blue}{weigh
  
  Coding is my passion than I want to study more and more.
  
- ## Here the link for the course
+ ## Here the link for the course a
  
  [Click Here](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
  
