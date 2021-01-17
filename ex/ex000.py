@@ -1,4 +1,4 @@
-from ex.stile import none, blue
+from ex.style import none, blue
 
 name = input('What is your name? ')
 age = int(input('How old are you? '))

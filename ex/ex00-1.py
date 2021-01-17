@@ -1,4 +1,4 @@
-from exercicios.stile import none, bold, red
+from ex.style import none, bold, red
 from datetime import date
 
 year = int(input(f'What {bold}year{none} were you born? '))

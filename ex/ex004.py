@@ -1,4 +1,4 @@
-from exercicios.stile import none, whiteblack
+from ex.style import none, whiteblack
 
 a = input('Type something: ')
 
