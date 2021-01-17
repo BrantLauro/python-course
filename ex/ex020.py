@@ -1,10 +1,10 @@
 from random import shuffle
 
-a1 = input('Aluno 1: ')
-a2 = input('Aluno 2: ')
-a3 = input('Aluno 3: ')
-a4 = input('Aluno 4: ')
-lista = [a1, a2, a3, a4]
-shuffle(lista)
+s1 = input('Student 1: ')
+s2 = input('Student 2: ')
+s3 = input('Student 3: ')
+s4 = input('Student 4: ')
+slist = [s1, s2, s3, s4]
+shuffle(slist)
 
-print(f'A ordem de apresentação é: {lista}')
+print(f'The order for presentation is: {slist}')

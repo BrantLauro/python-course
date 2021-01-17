@@ -2,7 +2,7 @@ from random import randint
 from time import sleep
 
 print('-=-' * 19)
-print('-=- Vou pensar em número de 0 a 5! Tente adivinhar... -=-')
+print('-=- I will think in a number between 0 and 5. Try to guess... -=-')
 print('-=-' * 19)
 
 n = int(input('Em que número eu pensei? '))
