@@ -1,7 +1,7 @@
 # Python Course
  Python Course of **Curso em Vídeo**
  
- I done the first module of the python course of the brazilian teacher __*Gustavo Guanabara*__. I had **11 classes** and **35 exercises**.
+ A **free** Python course of **Gustavo Guanabara**
  
  Some of the exercises are in english and are stylized, I am working to traslate all the exercises to english and paint all of them.
  
