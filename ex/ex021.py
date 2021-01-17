@@ -1,3 +1,4 @@
 from playsound import playsound
 
-playsound.playsound('audio.mp3')
+playsound('audio.mp3')
+print('')
