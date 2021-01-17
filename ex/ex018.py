@@ -1,8 +1,8 @@
 from math import sin, cos, tan, radians
 
-a = float(input('Digite um ângulo: '))
+a = float(input('Type a angle: '))
 ar = radians(a)
 
-print(f'O seno do ângulo {a}° é {sin(ar) :.2f} \n'
-      f'O cosseno é {cos(ar) :.2f} \n'
-      f'E a tangente é {tan(ar) :.2f}')
+print(f'The sine of the angle {a}° is {sin(ar) :.2f} \n'
+      f'The cosine is {cos(ar) :.2f} \n'
+      f'And the tangent is {tan(ar) :.2f}')

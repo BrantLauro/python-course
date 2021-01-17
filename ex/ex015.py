@@ -1,5 +1,5 @@
-dias = int(input('Por quantos dias o carro ficou alugado: '))
-km = float(input('Qual a quantidade de Kms rodados: '))
-p = (dias * 60) + (km * 0.15)
+days = int(input('For how many days the car has been rented: '))
+km = float(input('How many kilometers traveled: '))
+p = (days * 60) + (km * 0.15)
 
-print(f'O total a pagar é de R${p :.2f}')
+print(f'The total to pay is ${p :.2f}')

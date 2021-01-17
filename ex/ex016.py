@@ -1,5 +1,5 @@
 from math import trunc
 
-n = float(input('Digite um número: '))
+n = float(input('Type a number: '))
 
-print(f'A parte inteira do número {n} é {trunc(n)}')
+print(f'The whole part of  {n} is {trunc(n)}')

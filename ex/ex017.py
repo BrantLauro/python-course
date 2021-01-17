@@ -1,7 +1,7 @@
 from math import hypot
 
-co = float(input('Qual o comprimento do cateto oposto? '))
-ca = float(input('Qual o comprimento do cateto adijacente? '))
-h = hypot(co, ca)
+oside = float(input('What is the length of the opposite side? '))
+aside = float(input('What is the length of the adjacent side? '))
+h = hypot(oside, aside)
 
-print(f'a hipotenusa do triângulo cujo cateto oposto e cateto adijacente medem respectivamente {co} e {ca} é {h:.2f}')
+print(f'The hypotenuse of the triangle whose opposite side and adjacent side measure respectively {oside} and {aside} is {h:.2f}')
