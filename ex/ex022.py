@@ -1,8 +1,8 @@
-nome = str(input('Digite seu nome completo: ')).strip()
+nome = str(input('Type your complete name: ')).strip()
 
-print(f'Seu nome com todas as letras em maiúsculas é {nome.upper()} \n'
-      f'Seu nome com todas as letras em minúsculas é {nome.lower()} \n'
-      f'Seu nome completo tem {len(nome) - nome.count(" ")} letras no total')
+print(f'Your name to upper case is {nome.upper()} \n'
+      f'Your name to lower case is {nome.lower()} \n'
+      f'Your complete name had {len(nome) - nome.count(" ")} letters on total')
 
 nome = nome.split()
 
