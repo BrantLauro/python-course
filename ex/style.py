@@ -25,4 +25,3 @@ bpurple = '\033[45m'
 bcyan = '\033[46m'
 bgray = '\033[47m'
 
-# from exercicios.stile import none,
