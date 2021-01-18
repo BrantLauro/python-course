@@ -7,6 +7,8 @@
  
  If you want to see my exercises go to the **ex folder**, please open it on PyCharm because I tried to organize the styles that Guanabara asked for. He asked us to put color in the terminal for all the exercises using the escape sequence ANSI, so I created a document named **style.py** then created some variables with the ANSI code and import this document into some of my exercises (i will not do this for all the exercises becouse I don't think thats beautiful) and put the variables of **style.py** in my code to make it more readable, but that didn't work in VSCode, only in PyCharm, then if you want to see that working, play it on PyCharm.
  
+ Obs: I used 2 external modules: emoji and playsound so make sure you have instaled it on the venv
+ 
  ## Here some examples
  
  **Without style.py**
