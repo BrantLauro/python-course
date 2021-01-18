@@ -1,5 +1,5 @@
-nome = str(input('Qual é o seu nome? ')).strip().split()
+name = str(input('What is your name? ')).strip().split()
 
-print(f'Muito Prazer em te conhecer! \n'
-      f'Seu primeiro nome é {nome[0]} \n'
-      f'Seu último nome é {nome[len(nome) - 1]}')
+print(f'Nice to meet you! \n'
+      f'Your first name is {name[0]} \n'
+      f'Your last name is {name[len(name) - 1]}')
