@@ -1,12 +1,12 @@
-print('*'*30)
-print('*  Analisador de Triângulos  *')
-print('*'*30)
+print('*'*23)
+print('*  Triangle Analyzer  *')
+print('*'*23)
 
-a = float(input('Primeira reta: '))
-b = float(input('Segunda reta: '))
-c = float(input('Terceira reta: '))
+a = float(input('First straight: '))
+b = float(input('Second straight: '))
+c = float(input('Third straight: '))
 
 if a + b > c and b + c > a and a + c > b:
-    print('Os seguimentos acima PODEM FORMAR triângulo!')
+    print('The above segments MAY form a triangle!')
 else:
-    print('Os seguimentos acima NÃO PODEM FORMAR triângulo!')
+    print('The above segments CANNOT FORM a triangle!')

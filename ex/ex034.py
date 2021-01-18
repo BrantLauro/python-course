@@ -1,8 +1,8 @@
-s = float(input('Qual é o salário do funcionário? R$'))
+s = float(input('What is the salary of the functionary? $'))
 
 if s > 1250.00:
-    dez = s + s * 0.10
-    print(f'O seu salário teve um aumento de 10% e agora é {dez:.2f}')
+    t = s + s * 0.10
+    print(f'His salary increased by 10% and is now {t:.2f}')
 else:
-    quinze = s + s * 0.15
-    print(f'O seu salário teve um aumento de 15% e agora é {quinze:.2f}')
+    f = s + s * 0.15
+    print(f'His salary increased by 15% and is now {f:.2f}')

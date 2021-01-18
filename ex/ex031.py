@@ -1,6 +1,6 @@
-d = float(input('Qual a distância em kms da viagem? '))
+d = float(input('Whats the distance in kms fo the trip? '))
 
 if d <= 200:
-    print(f'A passagem ficará R${d * 0.50:.2f}')
+    print(f'The ticket will be ${d * 0.50:.2f}')
 else:
-    print(f'A passagem ficará R${d * 0.45:.2f}')
+    print(f'The ticket will be ${d * 0.45:.2f}')
