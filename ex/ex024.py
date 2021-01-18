@@ -1,4 +1,4 @@
-c = str(input('Qual é o nome da sua cidade? ')).strip().upper()
+c = str(input('What city are you from? ')).strip().upper()
 
-print(f'Sua cidade começa com a palavra "SANTO"? {"SANTO " in c[0:6]}')
+print(f'Your city starts with the word "SANTO"? {"SANTO " in c[0:6]}')
 

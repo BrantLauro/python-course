@@ -1,3 +1,3 @@
-nome = str(input('Digite o seu nome completo: ')).strip().upper().split()
+name = str(input('Type your complete name: ')).strip().upper().split()
 
-print(f'O seu nome tem "SILVA"? {"SILVA" in nome}')
+print(f'Does your name have "POTTER"? {"POTTER" in name}')

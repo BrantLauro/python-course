@@ -1,5 +1,5 @@
-a = str(input('Digite uma frase: ')).strip().upper()
+a = str(input('Type a phrase: ')).strip().upper()
 
-print(f'Nesta frase existem {a.count("A")} letras "A" \n'
-      f'O Primeiro "A" está na posição {a.find("A") + 1} \n'
-      f'O último "A" está na posição {a.rfind("A") + 1}')
+print(f'In this phrase we have {a.count("A")} letters "A" \n'
+      f'The first "A" is on {a.find("A") + 1} \n'
+      f'The last "A" is on {a.rfind("A") + 1}')

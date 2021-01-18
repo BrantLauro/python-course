@@ -1,6 +1,6 @@
-n = int(input('Digite um número: '))
+n = int(input('Type a number: '))
 
 if n % 2 == 0:
-    print('PAR')
+    print('PAIR')
 else:
-    print('ÍMPAR')
+    print('UNPAIR')
