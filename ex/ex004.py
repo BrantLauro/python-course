@@ -1,4 +1,4 @@
-from ex.style import none, whiteblack
+from style import none, whiteblack
 
 a = input('Type something: ')
 

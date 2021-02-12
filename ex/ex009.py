@@ -1,4 +1,4 @@
-from ex.style import bold, whiteblack, none
+from style import bold, whiteblack, none
 n = int(input(f'Type a int {bold}number{none} to see its {whiteblack}multiplication table{none}: '))
 
 print('-' * 12)
