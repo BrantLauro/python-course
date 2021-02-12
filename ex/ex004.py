@@ -1,12 +1,12 @@
-from style import none, whiteblack
+from style import none, blue
 
 a = input('Type something: ')
 
-print(f'This value type is: {whiteblack}{type(a)}{none} \n'
-      f'Just has space? {whiteblack}{a.isspace()}{none} \n'
-      f'Is a number? {whiteblack}{a.isnumeric()}{none} \n'
-      f'Is alpha? {whiteblack}{a.isalpha()}{none} \n'
-      f'Is alphanumeric? {whiteblack}{a.isalnum()}{none} \n'
-      f'Is upper? {whiteblack}{a.isupper()}{none} \n'
-      f'Is lower? {whiteblack}{a.islower()}{none} \n'
-      f'Is a title? {whiteblack}{a.istitle()}{none}')
+print(f'This value type is: {blue}{type(a)}{none} \n'
+      f'Just has space? {blue}{a.isspace()}{none} \n'
+      f'Is a number? {blue}{a.isnumeric()}{none} \n'
+      f'Is alpha? {blue}{a.isalpha()}{none} \n'
+      f'Is alphanumeric? {blue}{a.isalnum()}{none} \n'
+      f'Is upper? {blue}{a.isupper()}{none} \n'
+      f'Is lower? {blue}{a.islower()}{none} \n'
+      f'Is a title? {blue}{a.istitle()}{none}')
