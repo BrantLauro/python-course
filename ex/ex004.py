@@ -1,4 +1,4 @@
-from style import none, blue
+from style import blue, none
 
 a = input('Type something: ')
 

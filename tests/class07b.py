@@ -1,10 +1,12 @@
-n1 = float(input('Type a \033[1;30mvalue\033[m: '))
-n2 = float(input('Type another \033[1;30mvalue\033[m: '))
+from style import blue, none
 
-print(f'The \033[7;30msum\033[m is {n1 + n2} \n'
-      f'The \033[7;30msubtraction\033[m is {n1 - n2} \n'
-      f'The \033[7;30mmultiplication\033[m is {n1 * n2} \n'
-      f'The \033[7;30mdivision\033[m is {n1 / n2 :.1f} \n'
-      f'The \033[7;30mpower\033[m is {n1 ** n2} \n'
-      f'The \033[7;30mentire\033[m division is {n1 // n2} \n'
-      f'The \033[7;30mdivision\033[m rest is {n1 % n2}')
+n1 = float(input(f'Type a {blue}value{none}: '))
+n2 = float(input(f'Type another {blue}value{none}: '))
+
+print(f'The {blue}sum{none} is {n1 + n2} \n'
+      f'The {blue}subtraction{none} is {n1 - n2} \n'
+      f'The {blue}multiplication{none} is {n1 * n2} \n'
+      f'The {blue}division{none} is {n1 / n2 :.1f} \n'
+      f'The {blue}power{none} is {n1 ** n2} \n'
+      f'The {blue}entire{none} division is {n1 // n2} \n'
+      f'The {blue}division{none} rest is {n1 % n2}')

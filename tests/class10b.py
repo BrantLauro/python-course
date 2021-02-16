@@ -1,13 +1,15 @@
-n1 = float(input('Type a \033[33mfist grade\033[m: '))
-n2 = float(input('Type a \033[33msecond grade\033[m: '))
+from style import blue, none
+
+n1 = float(input(f'Type a {blue}fist grade{none}: '))
+n2 = float(input(f'Type a {blue}second grade{none}: '))
 
 a = (n1+n2)/2
 
-print(f'Your average was \033[3;30m{a:.1f}\033[m')
+print(f'Your average was {blue}{a:.1f}{none}')
 
 if a >= 6.0:
-    print('\033[3;30mCongratulations!\033[m Your grades are great!')
+    print(f'{blue}Congratulations!{none} Your grades are great!')
 else:
-    print('\033[3;30mStudy more!\033[m Your grades are not so good!')
+    print(f'{blue}Study more!{none} Your grades are not so good!')
 
-print('\033[30mHave a good day!')
+print(f'{blue}Have a good day!')

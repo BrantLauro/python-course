@@ -1,3 +1,5 @@
-n = input('Type \033[1;30msomething\033[m: ')
+from style import blue, none
 
-print(f'\033[33m{n.isnumeric()}')
+n = input(f'Type {blue}something{none}: ')
+
+print(f'{blue}{n.isnumeric()}')

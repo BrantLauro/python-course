@@ -1,4 +1,4 @@
-n = float(input('Type a \033[35mnumber\033[m: '))
+n = float(input('Type a number: '))
 
 print(f'The double of \033[1;30m{n}\033[m is \033[1;30m{n * 2}\033[m. \n'
       f'The triple is \033[1;30m{n * 3}\033[m. \n'

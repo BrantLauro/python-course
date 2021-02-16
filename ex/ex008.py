@@ -1,9 +1,11 @@
-m = float(input('Type a distance in \033[34mmeters\033[m: '))
+from style import blue, red, purple, none
 
-print(f'This distance in \033[34mkilometers\033[m is \033[1;30m{m / 1000}\033[mkm \n'
-      f'In \033[34mhectometers\033[m \033[1;30m{m / 100}\033[mhm \n'
-      f'In \033[34mdecameters\033[m \033[1;30m{m / 10}\033[mdam \n'
-      f'In \033[34mmeters\033[m \033[1;30m{m}\033[mm \n'
-      f'In \033[34mdecimeters\033[m \033[1;30m{m * 10}\033[mdm \n'
-      f'In \033[34mcentimeters\033[m \033[1;30m{m * 100}\033[mcm \n'
-      f'And in \033[34mmillimeters\033[m \033[1;30m{m * 1000}\033[mmm')
+m = float(input(f'Type a distance in {red}meters{none}: '))
+
+print(f'This distance in {blue}kilometers{none} is {purple}{m / 1000}{none}km \n'
+      f'In {blue}hectometers{none} {purple}{m / 100}{none}hm \n'
+      f'In {blue}decameters{none} {purple}{m / 10}{none}dam \n'
+      f'In {blue}meters{none} {purple}{m}{none} \n'
+      f'In {blue}decimeters{none} {purple}{m * 10}{none}dm \n'
+      f'In {blue}centimeters{none} {purple}{m * 100}{none}cm \n'
+      f'And in {blue}millimeters{none} {purple}{m * 1000}{none}mm')

@@ -1,3 +1,5 @@
-name = input('What`s your \033[3;30mname\033[m? ')
+from style import blue, none
 
-print(f'Nice to meet you \033[3;30m{name:=^20}\033[m!')
+name = input(f'What`s your {blue}name{none}? ')
+
+print(f'Nice to meet you {blue}{name:=^20}{none}!')

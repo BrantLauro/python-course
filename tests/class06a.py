@@ -1,5 +1,7 @@
-n1 = int(input('Type a \033[32mnumber: \033[m'))
-n2 = int(input('Type \033[32mother: \033[m'))
+from style import blue, none
+
+n1 = int(input(f'Type a {blue}number: {none}'))
+n2 = int(input(f'Type {blue}other: {none}'))
 s = n1 + n2
 
-print(f'The \033[31msum\033[m between \033[36m{n1}\033[m and \033[36m{n2}\033[m is \033[34m{s}')
+print(f'The {blue}sum{none} between {blue}{n1}{none} and {blue}{n2}{none} is {blue}{s}')
