@@ -1,10 +1,10 @@
-name = input('What is your name? ')
+name = input('What is your name? ').upper().strip()
 
-if name in ('Lauro, Alanna, Cecilia, John, Silvia'):
+if name in ('LAURO, ALANNA, CECILIA, JOHN, SILVIA'):
     print('What a beautiful name you have?')
-elif name in ('Pedro, João, Mateus, Lucas, Zé'):
+elif name in ('PEDRO, JOÃO, MATEUS, LUCAS, ZÉ'):
     print('Your name is very popular in Brazil. Cool!')
-elif name in ('Anna, Maria, Julia, Amanda, Joana'):
+elif name in ('ANNA, MARIA, JULIA, AMANDA, JOANA'):
     print('Nice female name!')
 else:
     print(f'Nice name {name}!')
