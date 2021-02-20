@@ -3,8 +3,6 @@
  
  A **free** Python course of **Gustavo Guanabara**
  
- Some of the exercises are in english and are stylized, I am working to traslate all the exercises to english.
- 
  **Guanabara** asked us to put color in the terminal for all the exercises using the escape sequence ANSI, so I created a document named **style.py** then created some variables with the ANSI code and import this document into some of my exercises (i will not do this for all the exercises becouse I don't think thats beautiful) and put the variables of **style.py** in my code to make it more readable.
  
  Note: I used 2 external modules: emoji and playsound so make sure you have instaled it on the venv
