@@ -1,3 +1,4 @@
+print(f"{'='*12} BRANT'STORE {'='*12}")
 price = float(input('How much the product costs? $'))
 print('''Choose the form of payment:
 [1] Cash/check
