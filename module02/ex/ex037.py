@@ -1,5 +1,5 @@
 number = int(input('Type a number: '))
-print('''chose a base for the conversion:
+print('''Chose a base for the conversion:
 [1] to binary
 [2] to octal
 [3] to hexadecimal''')

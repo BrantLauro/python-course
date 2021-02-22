@@ -1,5 +1,5 @@
 from style import blue, green, purple, red, none
-from random import randint
+from random import choice
 from time import sleep
 
 print(f"{'='*20} {green}JOKENPO{none} {'='*20}")
