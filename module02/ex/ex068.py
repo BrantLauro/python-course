@@ -9,6 +9,7 @@ while True:
         if choose == 'E':
             if (pc + n) % 2 == 0:
                 print(f'Pc choose {pc}. {pc + n} is Even! You won congrats!')
+                c += 1
                 pc = randint(1, 10)
             else:
                 print(f'Pc choose {pc}. {pc + n} is Odd! You lose, sorry!')
@@ -16,6 +17,7 @@ while True:
         elif choose == 'O':
             if (pc + n) % 2 != 0:
                 print(f'Pc choose {pc}. {pc + n} is Odd! You won congrats!')
+                c += 1
                 pc = randint(1, 10)
             else:
                 print(f'Pc choose {pc}. {pc + n} is Even! You lose, sorry!')
@@ -24,3 +26,4 @@ while True:
             print('[ERROR] Try Again')
     else:
         print('Type a number between 1 and 10')
+print(f'You won {c} times!')
