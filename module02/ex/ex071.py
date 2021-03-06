@@ -1,6 +1,7 @@
 print('='*18)
 print('LAURO_BRANT_S BANK')
 print('='*18)
+
 money = int(input('How many you want to withdraw? $'))
 total = money
 paper = 50
