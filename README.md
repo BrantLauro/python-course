@@ -7,6 +7,7 @@
  
  Note: I used 2 external modules: emoji and playsound so make sure you have instaled it on the venv
  
+ 
  ## Here some examples
  
  **Without style.py**
