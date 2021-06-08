@@ -29,4 +29,3 @@ while True:
     if student <= len(students) - 1:
         lin()
         print(f'The notes of {students[student][0]} are {students[student][1]} and {students[student][2]}')
-ola
