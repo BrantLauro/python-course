@@ -1,5 +1,10 @@
 # Python Course
- Python Course of **Curso em Vídeo**
+
+<h2>
+    Python Course of Curso em Video<br>
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/BrantLauro/python-course?style=social">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/BrantLauro?label=Follow%20me%20%3A%29&style=social">
+</h2>
 
  </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
 
